@@ -1,0 +1,88 @@
+# --- Operating System Files ---
+# Ignore macOS system files that store custom folder attributes
+.DS_Store
+# Ignore Windows thumbnail cache files
+Thumbs.db
+# Ignore Windows log files for crash dumps
+*.log
+desktop.ini
+
+# --- Sensitive Files ---
+# Ignore environment variables files (often contain secrets like API keys)
+.env
+# Ignore other potential environment files (uncomment/adjust as needed)
+# .env.*
+
+# Ignore other potential sensitive config files
+*.pem
+*.key
+credentials.*
+config.local.*
+
+# --- Dependency Directories ---
+# Ignore Node.js dependencies
+node_modules/
+# Ignore Python virtual environments and cache
+venv/
+env/
+__pycache__/
+*.py[cod]
+# Ignore Composer dependencies (PHP)
+vendor/
+# Ignore Ruby dependencies
+vendor/bundle/
+# Ignore Go dependencies
+vendor/
+# Ignore Java build output/dependencies
+target/
+*.class
+*.jar
+*.war
+*.ear
+# Ignore .NET build output
+bin/
+obj/
+
+# --- Build Output & Compiled Files ---
+build/
+dist/
+out/
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+
+# --- Log Files ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- IDE & Editor Configuration ---
+# Ignore VS Code configuration
+.vscode/*
+!.vscode/settings.json  # Optional: Keep project-specific settings if desired
+!.vscode/extensions.json # Optional: Keep recommended extensions if desired
+# Ignore JetBrains IDEs configuration (IntelliJ, PyCharm, WebStorm etc.)
+.idea/
+# Ignore Sublime Text configuration
+*.sublime-workspace
+*.sublime-project
+# Ignore Atom configuration
+.atom/
+# Ignore Eclipse configuration
+.project
+.classpath
+.settings/
+
+# --- Temporary Files ---
+*~
+*.swp
+*.swo
+
+# --- Other ---
+# Ignore coverage output
+coverage/
+.nyc_output/
