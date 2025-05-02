@@ -10,6 +10,6 @@ Templates and starter code to help get API Hackathon Projects off the ground
 - Notebooks (can be used with Jupyter Notebook and Google Colab)
     - [```notebook_template.ipynb```](https://github.com/evaneckels-ssc/API-Hackathon-Templates/blob/main/Code%20Templates/Notebooks/notebook_template.ipynb) - Get companies in a Portfolio
     - [```multiple_calls_template.ipynb```](https://github.com/evaneckels-ssc/API-Hackathon-Templates/blob/main/Code%20Templates/Notebooks/multiple_calls_template.ipynb) - Get Issue Summary for all companies in Portfolio
-    - [```Portfolio_Vendor_Report```](https://github.com/evaneckels-ssc/API-Hackathon-Templates/blob/main/Code%20Templates/Notebooks/Portfolio_Vendor_Report.ipynb) - Script example for Workshops 1 & 2
+    - [```Portfolio_Vendor_Report.ipynb```](https://github.com/evaneckels-ssc/API-Hackathon-Templates/blob/main/Code%20Templates/Notebooks/Portfolio_Vendor_Report.ipynb) - Script example for Workshops 1 & 2
 - Python Scripts (for use with Python environments)
     - [```python_template.py```](https://github.com/evaneckels-ssc/API-Hackathon-Templates/blob/main/Code%20Templates/Python%20Scripts/python_template.py) - Get companies in a Portfolio
